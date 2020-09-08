@@ -1,0 +1,166 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a, button{
+    cursor: pointer;
+  }
+  
+  a{    
+    color: #004AAD !important;
+  }
+
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  div{
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  body {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;   
+  }
+  
+  .logo {
+      
+      padding: 20px 50px 41px;
+  }
+
+
+.sign-up-form {
+    margin: 0px auto 24px;
+    margin-bottom: 65px;
+    padding: 3rem;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 0.1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position: absolute;
+   
+  
+}
+
+
+
+.form-style{
+    background-color: #e9ecef !important;
+
+}
+
+.country-code{
+    border: 1px solid #B4B4B4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-right: 13px;
+    width: 91px;
+    height: 40px;
+    padding: 5px 20px;
+}
+
+span > i {
+    margin-right    : 2px;
+}
+
+
+ul{
+    list-style: none !important;
+    display: flex !important;
+    margin: 0 3rem 0 0;
+}
+
+.user::before {
+    background-image: url('./images/Ellipse 59.svg');
+}
+
+.backimg {
+    background-image: url(./images/dao-logo-only-blocks\ \(1\).svg); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 1036.49px, 1036.49px;
+   
+}
+
+button {
+   width: 100% !important;
+   height: 40px;
+}
+
+.span1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    width: 78px;
+    height: 16px;
+    color: #5E6C84;
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 4.7rem;
+}
+
+.heading {
+  
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #4B525D;
+}
+
+.dao-logo {
+    margin-left: 8.5rem;
+    margin-bottom: 3rem;
+   
+}
+
+
+
+.para-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+
+    color: #696969;
+}
+
+.terms {
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #646464;
+    margin: 2rem 0;
+
+}
+
+.line-3 {
+    margin: 5rem 0 2rem 3rem;
+    
+}
+
+.log-in {
+    margin-left: 5rem;
+}
