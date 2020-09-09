@@ -5,151 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-
-     
-    <div class="container ">
-          <!--Back Img
-        <div class="backimg"></div> -->
-        <div class="row ">
+    <div class="container d-flex justify-content-center h-100">
+        <div >
             
-            <div class="col-md-6 col-sm-6 offset-md-3 offset-sm-0">
-
-               
-  
-                <div class="justify-content-center">
-        
-                    <!--logo-->
-                    <div class="logo">
-                        <span class="logo-span">
-                        <canvas height="32" width="190" aria-hidden="true"></canvas>
-                        <img src="./images/logo.svg" alt="">
-                        </span>
+  <!--logo-->
+                    <div class="el-logo d-flex justify-content-center">
+                        <img  style="width: 60%; padding: 2rem 0 1.5rem 0;"  src="./images/logo.svg" alt="">
                     </div>
 
-                <section class="sign-up-form ">
-                    <div class=" d-flex justify-content-center">
-
-                        <!--                        <img src="./images/dao-logo-only-blocks.svg" class="dao-logo" alt="">
-                     
-                            <p class="span1">Powered By</p>
-                            <h3 class="heading">Dao Proptech</h3>
-                        -->
-                            <img src="./images/bw-dao-logo.svg" alt="" class="dao-logo">
-                        </div>
-
-                      <h4 class="para-1 d-flex justify-content-center">Signup for DAO's Account</h4>
+                <section class="sign-up-form">
+                    <div class="card-body d-flex" style="flex-direction: column; align-items: center;">
+                            
+                        <img src="./images/bw-dao-logo.svg" alt="" class="dao-logo">
+                        <h4 class="para-1">Signup for DAO's Account</h4>
 
                       <form action="#">
-                          <div class="form-group ">
-                            <input type="text" class="form-control form-style" placeholder="Enter Full Name">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Full Name">
                           </div>
 
-                          <div class="form-group ">
-                            <input type="email" class="form-control form-style" placeholder="Enter Email">
+                          <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Enter Email">
                           </div>
                                 
-                            <div class="input-group mb-1 form-group ">
-                                <div class="input-group-prepend  ">
-                                    <p class="country-code form-style "><i class="mr-3"><img src="./images/Ellipse 60.svg" alt=""></i><span class="text">+92</span></p>
-                                    
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-outline"><span ><i><img src="./images/Ellipse 60.svg" alt=""></i>+92</span></button>
                                 </div>
-                                <input type="phone" class="form-control form-style phone" placeholder="Enter phone no">
+                                <input class="form-control" type="phone" placeholder="Enter Phone Number">
                             </div>
 
                          <div class="form-group">
-                            <input class="form-control" type="password"  placeholder=" Create Password" >
+                            <input class="form-control form-style" type="password" id="password" placeholder="Password" >
                         </div>
 
-                        <div class="form-group">
-                            <input class="form-control" type="password"  placeholder="Confirm Password" >
+                        <div class="form-group form-style">
+                            <input class="form-control" type="password" id="password" placeholder="Confirm Password" >
                         </div>
 
                         <div class="container">
-                        <p class="terms">By signing up, you are agreeing to DAO Proptech’s <a>Terms of Service </a>and acknowledge the <a>Terms & Conditions.</a></p>
+                            <p class="terms">By signing up, you are agreeing to DAO Proptech’s <a>Terms of
+                                    Service
+                                </a>and acknowledge the <a>Terms & Conditions.</a></p>
                         </div>
-                            
+
                         <button class="btn btn-primary ">Sign Up</button>
 
-                        <img src="./images/Line 69.svg" class="line-3 align-middle" alt="">
+                        <img src="./images/Line 69.svg" class="line-3" alt="">
 
-                        <a href="#"> <p class="text-center log-in">Already have a DAO Account? Log in</p> </a>
+                        <a href="#">
+                            <p class="log-in">Already have a DAO Account? Log in</p>
+                        </a>
 
                       </form>
+                    </div>
                 </section>
                
-       
-                <div class="priv-user container">
-                    <div class="row justify-content-center">
-                    <ul class="">
-                        <li><a href="#" class="privacy align-self-center"> <p>Privacy Policy</p> </a></li>
-                        <i><img src="./images/Ellipse 59.svg" alt="" class="ellipse"></i>
+              
+                <div class="d-flex justify-content-center">
+                    <ul >
+                        <li><a href="#" class="privacy"> <p>Privacy Policy</p> </a></li>
+                        <img src="./images/Ellipse 59.svg"class="img-pol" alt="">
                         <li><a href="#" class="user"><p>User Notice</p></a></li>
                     </ul>
-                    </div>
-                    </div>
-      
-                    <img src="./images/Line 70.svg" alt="" class="line  container">
                     
-                    </div>
+                </div>
 
-                   
+                    <img src="./images/Line 70.svg" alt="" class="line">
+                    
+                    </section>
                 
-                 <footer>
-                  <div class="container "> 
-                        <div class=" row justify-content-center ">
+                    <footer class="d-flex justify-content-center">
+                    <div class="footer ">
+                        <div class="footer-1">
                             <img src="./images/dao-logo-only-blocks.svg" class="img-last" alt="">
                 
-                            <h1 class="heading-2 ">Dao Proptech</h1>        
-                         </div>
-                                <div class="container">
-                             <div class=" justify-content-center">
-                                    <span class="last span-last">One account for all your investing needs</span>
-                               
-                                    <span class="last last-span">Elements Residencia LLP 2020. All Rights Reserved.</span>
-                             </div>  
-                            </div>
-                                
-                  </div>   
-                    </footer> 
+                            <h1>Dao Proptech</h1>
+                        </div>
+                        <p><span class="last-span">One account for all your investing needs</span></p>
+                        </div>   
+                    </footer>
 
-                 
+                    <span class="trademark">Elements Residencia LLP 2020. All Rights Reserved.</span>
              
-            <!-- </div> -->
-        </div>  
-       
+              
         </div>
-     
     </div>
 </body>
 </html>
-
-
-
-
-<!--
-
-    <div class=row>
-   <div class="row">
-       <div class="col-12">
-       </div>
-
-        <div class="row">
-       <div class="col-12">
-
-       </div>
-
-       <div class="row">
-       <div class="col-12">
-           
-       </div>
-   </div>
-   
-    </div>
-
-
--->
